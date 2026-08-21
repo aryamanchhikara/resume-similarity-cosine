@@ -9,7 +9,7 @@ scraping problem into a text problem. This app takes two Karrou profiles (or
 two résumés, or one of each) and shows exactly how the similarity score is
 computed — every vector, every norm, every division.
 
-**Live app:** _add your Streamlit Community Cloud URL here after deploy_
+**Live app:** [resume-similarity-cosine](https://resume-similarity-cosine.streamlit.app/)
 
 ## What it does
 

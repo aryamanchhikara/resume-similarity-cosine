@@ -166,10 +166,6 @@ $$= 0.2243 + 0.4485 + 0 \approx 0.6729$$
 
 Cross-checked against `TfidfVectorizer` on the same two documents: `0.6728984701822545`. Agreement to 15 significant figures.
 
-## Screenshot
-
-_add screenshot at `docs/screenshot.png` after first run_
-
 ## Run locally
 
 ```bash
@@ -180,13 +176,6 @@ streamlit run app.py
 First launch downloads the MiniLM weights (~90 MB) and takes a minute.
 Subsequent launches use the cached model.
 
-## Deploy
-
-Deploy directly to [Streamlit Community Cloud](https://streamlit.io/cloud)
-pointing at `app.py`. If the deploy fails on size or memory (torch is heavy),
-swap the local model for an embeddings API and put the key in Streamlit
-secrets — the `embed_pair` / `embed_texts` boundary in `similarity.py` is the
-only surface that needs to change.
 
 ## Caveats
 
